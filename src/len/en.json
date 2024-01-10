@@ -1,0 +1,49 @@
+{
+    "title": "Welcome to MA.EXPRESS",
+    "name":"MA.EXPRESS",
+
+    "home": "Home",
+    "service": "Service",
+    "ourTame": "Our Tame",
+    "contact": "Contact Us",
+    "call": " Call : +01 123455678990",
+    "emil": "Email : demo@gmail.com",
+    "SubmitEmail": {
+        "contact": " Contact",
+        "yourfullname": " Your Fullname",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit"
+    },
+    "logo": "Speed safety quality",
+    "hero": {
+        "title": "Are you looking for a furniture moving company?",
+        "body": "We are a specialized company in furniture moving services and parcel delivery. We understand the importance of your belongings and appreciate their personal and emotional value to you. Therefore, we strive to provide a safe and reliable moving service to ensure that your belongings arrive at their destination safely and in good condition.",
+        "btn": "Our prices are highly competitive, and we offer discounts for loyal customers."
+    },
+    "Certificates": {
+        "title": "Certificates and Recommendations",
+        "titlep": "We are committed to providing the best possible fast transportation service to our customers. By expanding our expertise, we ensure that we can meet their changing needs.",
+        "PostNLtitle": "PostNL Company",
+        "PostNLbody": "PostNL owns a wide network of sorting centers and logistics services worldwide. It also has a fleet of over 10,000 trucks and helicopters for mail and parcel delivery.",
+        "PayCheckedtitle": "PayChecked Mark",
+        "PayCheckedbody": "Check your eligibility: Make sure your company meets the requirements to obtain the PayChecked business mark.",
+        "niwotitle": "NIWO Certificate",
+        "niwobody": "The NIWO certificate is granted to individuals who wish to work in the fast transportation industry in the Netherlands. This certificate confirms that the person is qualified to work in the fast transportation sector by demonstrating successful completion of a written and practical test."
+    }, "itme": {
+        "col_title": "We are a company that operates",
+"title": "We are a company that operates in the field of furniture transportation and postal activities, with our main office in Groningen.",
+"btn": "Browse",
+"driver": "Trained Drivers and Staff",
+"driverbody": "Our company works with trained and dedicated drivers who have the right attitude to successfully complete their work. Staff: Make sure the company has well-trained employees.",
+"OurOffers": "Our Offers",
+"OurOffersbody": "Our prices are highly competitive, and we offer discounts for regular customers.",
+"Transfer": "Fast and Secure Transport",
+"Transferbody": "From start to delivery at the final destination. We strive to improve our performance every day to ensure the best quality for our clients.",
+"Safety": "Safety Guarantee",
+"Safetybody": "Experience: We are a company with experience in furniture and parcel transportation. Guarantee: We provide a warranty for our services. Pricing: Get a quote."
+    }
+    ,"Getin":"Get in Touch",
+    "Go":"Go"
+
+}
