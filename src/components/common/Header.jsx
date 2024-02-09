@@ -53,22 +53,22 @@ function Header() {
           }
         >
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="#home" className="nav-link">
               {t("home")}
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="#service" className="nav-link">
               {t("service")}
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="#ourTame" className="nav-link">
               {t("ourTame")}
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="#contact" className="nav-link">
               {t("contact")}
             </a>
           </li>
@@ -88,10 +88,9 @@ function Header() {
             </div>
             <div className={i18n.language === "ar" ? " left-right" : ""}>
               <div className="team-box-card-img">
-                <i className="ri-facebook-box-line"></i>
-                <i className="ri-instagram-line"></i>
-                <i className="ri-twitter-line"></i>
-                <i className="ri-google-line"></i>
+                <a href="https://www.facebook.com/profile.php?id=100064244430215&mibextid=ZbWKwL">
+                  <i className="ri-facebook-box-line"></i>
+                </a>
               </div>
               {SubmitEmail(
                 t("SubmitEmail.contact"),
@@ -104,10 +103,9 @@ function Header() {
             </div>
           </div>
           <div className="icons">
-            <i className="ri-facebook-box-fill"></i>
-            <i className="ri-instagram-fill"></i>
-            <i className="ri-twitter-fill"></i>
-            <i className="ri-google-fill"></i>
+            <a href="https://www.facebook.com/profile.php?id=100064244430215&mibextid=ZbWKwL">
+              <i className="ri-facebook-box-fill"></i>
+            </a>
           </div>
 
           <button onClick={() => handleClick(3)} className="close-btn-call">
@@ -157,7 +155,12 @@ function Header() {
           </div>
         </div>
         <div id="whatsapp">
-          <a href="#" target="_blank" id="toggle1" className="wtsapp">
+          <a
+            href="https://api.whatsapp.com/send?phone=31633854062"
+            target="_blank"
+            id="toggle1"
+            className="wtsapp"
+          >
             <i className="ri-whatsapp-line"></i>
           </a>
         </div>

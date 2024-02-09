@@ -61,23 +61,23 @@ export const Footer = () => {
                   <h3>{t("name")}</h3>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
+                  <a href="#home" className="footer-link">
                     {t("home")}
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
+                  <a href="#service" className="footer-link">
                   {t("service")}
 
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
+                  <a href="#ourTame" className="footer-link">
                     {t("ourTame")}
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="footer-link">
+                  <a href="#contact" className="footer-link">
                     {" "}
                     {t("contact")}
                   </a>

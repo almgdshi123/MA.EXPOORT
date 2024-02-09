@@ -57,13 +57,11 @@
 }
 
 .service-title {
-  font-size: var( --h1-font-size);
+  font-size: var( --h2-font-size);
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.service-desc {
-  font-size: var( --h2-font-size);
-}
+
 
 @media screen and (max-width: 960px) {
   .service-box {

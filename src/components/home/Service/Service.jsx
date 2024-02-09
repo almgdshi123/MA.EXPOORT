@@ -10,6 +10,7 @@ const Service = () => {
   const [t] = useTranslation();
   return (
     <>
+    <section id="ourTame">
       <div class="services-section">
         <div class="inner-width">
           <h1 class="section-title">{t("OurCustomers.title")}</h1>
@@ -48,6 +49,7 @@ const Service = () => {
         </div>
       </div>
       <div class="border"></div>
+      </section>
     </>
   );
 };

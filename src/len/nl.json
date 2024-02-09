@@ -4,7 +4,7 @@
 
     "home": "Thuis",
     "service": "Dienst",
-    "ourTame": "Ons Team",
+    "ourTame": "Onze Klanten",
     "contact": "Neem contact op",
     "call": "Bel: +01 123455678990",
     "emil": "E-mail: demo@gmail.com",
@@ -27,10 +27,18 @@
         "PostNLtitle": "PostNL Bedrijf",
         "PostNLbody": "PostNL bezit een uitgebreid netwerk van sorteercentra en logistieke diensten over de hele wereld. Ze hebben ook een vloot van meer dan 10.000 vrachtwagens en helikopters voor het bezorgen van post en pakketten.",
         "PayCheckedtitle": "PayChecked Keurmerk",
-        "PayCheckedbody": "Controleer uw geschiktheid: Zorg ervoor dat uw bedrijf voldoet aan de vereisten voor het verkrijgen van het PayChecked-keurmerk.",
+        "PayCheckedbody": "Controleer uw geschiktheid: Zorg ervoor dat uw bedrijf voldoet aan de vereisten om het PayChecked-handelsmerk te verkrijgen. PAYCHECKED is een handelsmerk dat aangeeft dat de betaling met succes is voltooid en dat uw bestelling wordt verwerkt of is verzonden. Om het PAYChecked-keurmerk te verkrijgen, moet uw bedrijf aan bepaalde vereisten voldoen.",
         "niwotitle": "NIWO Certificaat",
         "niwobody": "Het NIWO-certificaat wordt toegekend aan personen die willen werken in de snelle transportsector in Nederland. Dit certificaat bevestigt dat de persoon gekwalificeerd is om te werken in de snelle transportsector door aan te tonen dat hij/zij een schriftelijke en praktische test heeft afgerond."
     },
+    "DeliverCompany": {
+        "Dpdtitle": "Dpd Bedrijf",
+        "Dpdbody": "DPD is een wereldwijd pakketbezorgbedrijf opgericht in 1976 in Duitsland. DPD staat bekend om zijn betrouwbare diensten en zijn uitgebreide netwerk dat meer dan 40 landen over de hele wereld bestrijkt.",
+      
+        "Dhltitle": "DHL Bedrijf",
+        "Dhlbody": "DHL is een toonaangevend wereldwijd logistiekbedrijf opgericht in 1969 in San Francisco, Californië. DHL staat bekend om zijn betrouwbare diensten en zijn uitgebreide netwerk dat meer dan 220 landen en gebieden over de hele wereld bestrijkt."
+      }
+      ,
     "itme": {
         "col_title": "Wij zijn een bedrijf dat actief is",
         "title": "Wij zijn een bedrijf dat actief is in de meubeltransport en postactiviteiten, met ons hoofdkantoor in Groningen.",

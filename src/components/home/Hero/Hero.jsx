@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="home">
         <div className="container">
           <div className="text-box">
             <h1> {t("hero.title")} </h1>

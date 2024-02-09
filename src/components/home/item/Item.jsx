@@ -6,6 +6,7 @@ const Item = () => {
   const [t] = useTranslation();
   return (
     <>
+    <section id="service">
       <div className="imgcontent">
         <div className="row">
           <div className="col ">
@@ -34,6 +35,7 @@ const Item = () => {
         </div>
         
       </div>
+      </section>
     </>
   );
 };

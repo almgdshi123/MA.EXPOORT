@@ -12,6 +12,9 @@ import { Pagination, Navigation } from "swiper/modules";
 import { useTranslation } from "react-i18next";
 
 import img1 from "../../../assets/Img/unnamed (1).png";
+import Imgdpd from "../../../assets/Img/DPD_logo.png";
+import ImgDhl from "../../../assets/Img/Dhl.png";
+
 const Testi = () => {
   const [t] = useTranslation();
 
@@ -40,7 +43,7 @@ const Testi = () => {
                     {" "}
                     {t("Certificates.PostNLtitle")}{" "}
                   </span>
-                  <span className="job"> {t("Certificates.PostNLtitle")} </span>
+                  <span className="job"> {t("OurCustomers.title")} </span>
                 </div>
               </div>
           
@@ -49,15 +52,15 @@ const Testi = () => {
         
             <div className="testi-content">
               <div className="Slide">
-                <img src={img1} alt="" className="img_testi" />
-                <p>{t("Certificates.PostNLbody")}</p>
+                <img src={Imgdpd} alt="" className="img_testi" />
+                <p>{t("DeliverCompany.Dpdbody")}</p>
                 <i className="bx bxs-quote-alt-left guote-icon"></i>
                 <div className="details">
                   <span className="name">
                     {" "}
-                    {t("Certificates.PostNLtitle")}{" "}
+                    {t("DeliverCompany.Dpdtitle")}{" "}
                   </span>
-                  <span className="job"> {t("Certificates.PostNLtitle")} </span>
+                  <span className="job"> {t("OurCustomers.title")} </span>
                 </div>
               </div>
             </div>
@@ -67,15 +70,15 @@ const Testi = () => {
         
         <div className="testi-content">
           <div className="Slide">
-            <img src={img1} alt="" className="img_testi" />
-            <p>{t("Certificates.PostNLbody")}</p>
+            <img src={ImgDhl} alt="" className="img_testi" />
+            <p>{t("DeliverCompany.Dhlbody")}</p>
             <i className="bx bxs-quote-alt-left guote-icon"></i>
             <div className="details">
               <span className="name">
                 {" "}
-                {t("Certificates.PostNLtitle")}{" "}
+                {t("DeliverCompany.Dhltitle")}{" "}
               </span>
-              <span className="job"> {t("Certificates.PostNLtitle")} </span>
+              <span className="job"> {t("OurCustomers.title")} </span>
             </div>
           </div>
         </div>

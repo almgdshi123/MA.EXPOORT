@@ -15,6 +15,7 @@ function Home() {
        </Item>
              <Service/>
 
+<section id='contact'>
 <div className=' container' style={{padding:'  20px 0 '}}>
        {SubmitEmail(
                 t("SubmitEmail.contact"),
@@ -25,7 +26,8 @@ function Home() {
                 ""
               )}
 
-     </div>      
+     </div>   
+     </section>   
     </div>
   )
 }
