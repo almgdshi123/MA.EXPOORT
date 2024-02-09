@@ -32,7 +32,7 @@ const Testi = () => {
       modules={[Pagination, Navigation]}
       className="mySwiper Testimonial"
     >
-        <SwiperSlide className="testi-content">
+        <SwiperSlide className="testi-content" dir="ltr">
     
               <div className="Slide">
                 <img src={img1} alt="" className="img_testi" />
@@ -51,7 +51,7 @@ const Testi = () => {
         <SwiperSlide className="testi-content">
         
             <div className="testi-content">
-              <div className="Slide">
+              <div className="Slide" >
                 <img src={Imgdpd} alt="" className="img_testi" />
                 <p>{t("DeliverCompany.Dpdbody")}</p>
                 <i className="bx bxs-quote-alt-left guote-icon"></i>
