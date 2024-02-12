@@ -32,7 +32,7 @@ const Testi = () => {
       modules={[Pagination, Navigation]}
       className="mySwiper Testimonial"
     >
-        <SwiperSlide className="testi-content" dir="ltr">
+        <SwiperSlide className="testi-content" >
     
               <div className="Slide">
                 <img src={img1} alt="" className="img_testi" />
