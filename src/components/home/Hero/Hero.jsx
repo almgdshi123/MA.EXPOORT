@@ -12,7 +12,13 @@ const Hero = () => {
           <div className="text-box">
             <h1> {t("hero.title")} </h1>
             <p>{t("hero.body")}</p>
+            <div className="content-btn">
+
             <a className="hero-btn">{t("hero.btn")}</a>
+            <a className="hero-btn">{t("hero.btnStudent")}</a>
+            </div>
+
+
           </div>
         </div>
       </section>

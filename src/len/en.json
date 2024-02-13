@@ -1,7 +1,6 @@
 {
     "title": "Welcome to MA.EXPRESS",
-    "name":"MA.EXPRESS",
-
+    "name": "MA.EXPRESS",
     "home": "Home",
     "service": "Service",
     "ourTame": "Our Customers",
@@ -19,7 +18,8 @@
     "hero": {
         "title": "Are you looking for a furniture moving company?",
         "body": "We are a specialized company in furniture moving services and parcel delivery. We understand the importance of your belongings and appreciate their personal and emotional value to you. Therefore, we strive to provide a safe and reliable moving service to ensure that your belongings arrive at their destination safely and in good condition.",
-        "btn": "Our prices are highly competitive, and we offer discounts for loyal customers."
+        "btn": "Our prices are highly competitive, and we offer discounts for loyal customers.",
+        "btnStudent": " Discount for students   "
     },
     "Certificates": {
         "title": "Certificates and Recommendations",
@@ -34,24 +34,26 @@
     "DeliverCompany": {
         "Dpdtitle": "Dpd Company",
         "Dpdbody": "DPD is a global parcel delivery company founded in 1976 in Germany. DPD is known for its reliable services and its extensive network covering more than 40 countries around the world.",
-      
         "Dhltitle": "DHL Company",
         "Dhlbody": "DHL is a leading global logistics company founded in 1969 in San Francisco, California. DHL is known for its reliable services and its extensive network covering more than 220 countries and territories around the world."
-      }, 
+    },
     "itme": {
-        "col_title": "We are a company that operates",
-"title": "We are a company that operates in the field of furniture transportation and postal activities, with our main office in Groningen.",
-"btn": "Browse",
-"driver": "Trained Drivers and Staff",
-"driverbody": "Our company works with trained and dedicated drivers who have the right attitude to successfully complete their work. Staff: Make sure the company has well-trained employees.",
-"OurOffers": "Our Offers",
-"OurOffersbody": "Our prices are highly competitive, and we offer discounts for regular customers.",
-"Transfer": "Fast and Secure Transport",
-"Transferbody": "From start to delivery at the final destination. We strive to improve our performance every day to ensure the best quality for our clients.",
-"Safety": "Safety Guarantee",
-"Safetybody": "Experience: We are a company with experience in furniture and parcel transportation. Guarantee: We provide a warranty for our services. Pricing: Get a quote."
-    }
-    ,"Getin":"Get in Touch",
-    "Go":"Go"
-
+        "col_title": "We offer domestic and international shipping services",
+        "title": "We work in the field of furniture and mail transport with our main office in Groningen",
+        "btn": "Browse",
+        "driver": "Trained Drivers and Staff",
+        "driverbody": "Our company works with trained and dedicated drivers who have the right attitude to successfully complete their work. Staff: Make sure the company has well-trained employees.",
+        "OurOffers": "Our Offers",
+        "OurOffersbody": "Our prices are highly competitive, and we offer discounts for regular customers.",
+        "Transfer": "Fast and Secure Transport",
+        "Transferbody": "From start to delivery at the final destination. We strive to improve our performance every day to ensure the best quality for our clients.",
+        "Safety": "Safety Guarantee",
+        "Safetybody": "Experience: We are a company with experience in furniture and parcel transportation. Guarantee: We provide a warranty for our services. Pricing: Get a quote."
+    },
+    "OurCustomers": {
+        "title": "Our Customers",
+        "titlebody": "Our company has worked with large companies for many years to provide shipping services throughout the Netherlands. They have been a reliable partner."
+    },
+    "Getin": "Get in Touch",
+    "Go": "Go"
 }

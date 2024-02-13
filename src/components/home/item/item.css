@@ -27,13 +27,14 @@
   }
   .imgcontent h1 {
     color: #fff;
-    font-size: 80px;
+    font-size: 35px;
   
   }
   .imgcontent p{
-    color: #fff;
-    font-size: 15px;
-    line-height: 15px;
+    color: #ddd;
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 25px;
   
   }
   .imgcontent button{
@@ -111,7 +112,8 @@
     place-items: center;
   }
   .imgcontent h1 {
-    font-size: 50px;
+    margin-top: 20px;
+    font-size: 25px;
   
   }
   }

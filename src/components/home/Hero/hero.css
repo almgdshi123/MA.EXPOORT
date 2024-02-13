@@ -55,12 +55,16 @@ form h4 {
   font-size: var(--h3-font-size);
   color: rgba(red, green, blue, alpha);
 }
+.content-btn{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 .hero-btn {
-  display: inline-block;
   text-decoration: none;
   color: #fff;
-  border: 1px solid #fff;
-  padding: 12px 34px;
+  padding: 10px 30px;
+  border: 1.5px solid #fff;
   font-size: var(--h3-font-size);
   background: transparent;
   position: relative;
@@ -86,4 +90,11 @@ form h4 {
   form input {
     width: 100%;
   }
+}
+@media screen and (max-width: 480px) {
+  .hero .container {
+    padding-top: 45%;
+      max-width: 100%;
+  }
+  
 }
