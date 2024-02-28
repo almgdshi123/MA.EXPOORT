@@ -1,8 +1,7 @@
 import React from "react";
 import "./service.css";
 import { useTranslation } from "react-i18next";
-import PostNL from "../../assets/Img/PostNL_logo.svg.png";
-import PayChecked from "../../assets/Img/PayChecked-logo-2019.jpg";
+import PayChecked from "../../assets/Img/sss.jpg";
 import niwo from "../../assets/Img/niwo.svg";
 import Testi from "./testi/Testi";
 
@@ -31,7 +30,7 @@ const Service = () => {
           <div class="services-container">
             <div class="service-box">
               <div class="service-icon">
-                <img src={PayChecked}></img>
+                <img src={PayChecked} style={{ transform: "rotate(14deg)" }}></img>
               </div>
               <div class="service-title">
                 {t("Certificates.PayCheckedtitle")}

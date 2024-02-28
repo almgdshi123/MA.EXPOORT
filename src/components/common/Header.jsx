@@ -77,7 +77,7 @@ function Header() {
           </button>
         </ul>
 
-        <div className={isActiveCell ? "menu2 menu-active-cell" : "menu2"}>
+        {/* <div className={isActiveCell ? "menu2 menu-active-cell" : "menu2"}>
           <a href="#" className="logo">
             <span>MA.</span>
             <span className="red-color">EXPRESS</span>
@@ -111,13 +111,13 @@ function Header() {
           <button onClick={() => handleClick(3)} className="close-btn-call">
             <i className="ri-close-line"></i>
           </button>
-        </div>
+        </div> */}
         <div className="grp-btns">
           <button onClick={() => handleClick(1)} className="menu-btn">
             <i className="ri-menu-2-fill"></i>
           </button>
 
-          <a onClick={() => handleClick(3)} className="menu-btn-call " alt="">
+          <a /*</div>onClick={() => handleClick(3)} */ href="tel:+31633854062" className="menu-btn-call " alt="">
             <i className="ri-phone-fill"></i>{" "}
           </a>
           <div className="header-top-left">

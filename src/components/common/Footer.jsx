@@ -91,10 +91,12 @@ export const Footer = () => {
                 <button className="email-btn">{t("Go")}</button>
               </div>
               <div className="icons icons1">
+                <a  href="https://www.facebook.com/profile.php?id=100064244430215&mibextid=ZbWKwL" target="_blank">
                 <i className="ri-facebook-box-fill"></i>
-                <i className="ri-instagram-fill"></i>
+                </a>
+                {/* <i className="ri-instagram-fill"></i>
                 <i className="ri-twitter-fill"></i>
-                <i className="ri-google-fill"></i>
+                <i className="ri-google-fill"></i> */}
               </div>
             </div>
           </div>

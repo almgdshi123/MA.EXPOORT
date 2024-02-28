@@ -1,7 +1,6 @@
 
 .imgcontent{
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../../assets/Img/portrait-happy-delivery-man-carrying-packages-looking-camera-while-standing-street.jpg);
     background-position: center;
     padding-left: 3%;
     padding-right: 3%;
@@ -26,15 +25,15 @@
     grid-template-columns: 1fr 1fr;
   }
   .imgcontent h1 {
-    color: #fff;
-    font-size: 35px;
+    color: #000;
+    font-size: 45px;
   
   }
   .imgcontent p{
-    color: #ddd;
-    font-size: 18px;
-    padding-top: 20px;
-    line-height: 25px;
+    color: #000;
+    font-size: 28px;
+    padding-top: 25px;
+    line-height: 35px;
   
   }
   .imgcontent button{
@@ -42,7 +41,7 @@
     color: #000;
     font-size: 20px;
     padding: 12px 0;
-    background: #fff;
+    background: #FFCD4B;
     border: 0;
     border-radius: 20px;
     outline: none;
@@ -66,17 +65,17 @@
   transition: transform 0.5s;
   }
   .card1{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../assets/Img/small-business-owner-packing-product-parcel-boxes-delivery.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/Img/small-business-owner-packing-product-parcel-boxes-delivery.jpg);
   
   }
   .card2{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../assets/Img/close-up-delivery-man-s-hand-picking-up-cardboard-box.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/Img/close-up-delivery-man-s-hand-picking-up-cardboard-box.jpg);
   
   }.card3{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../assets/Img/smiling-delivery-man-uniform-packing-cardboard-box.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/Img/smiling-delivery-man-uniform-packing-cardboard-box.jpg);
   
   }.card4{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../assets/Img/37411.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/Img/37411.jpg);
   
   }
   .card:hover{
@@ -89,7 +88,10 @@
     font-size: 20px;
   }
   .card p{
-    font-size: 12px;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 0px;
+    line-height: 25px;
   
   }
   @media screen and (max-width: 900px) {
