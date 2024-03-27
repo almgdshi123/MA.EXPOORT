@@ -1,4 +1,3 @@
-import React, { useRef, useState } from "react";
 import "./testi.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -11,9 +10,9 @@ import { Pagination, Navigation } from "swiper/modules";
 
 import { useTranslation } from "react-i18next";
 
-import img1 from "../../../assets/Img/unnamed (1).png";
-import Imgdpd from "../../../assets/Img/DPD_logo.png";
-import ImgDhl from "../../../assets/Img/Dhl.png";
+import PostNL from "../../../assets/Img/شعار PostNL على خلفية برتقالية.png";
+import DPD from "../../../assets/Img/DPD_logo.png";
+import DHL from "../../../assets/Img/DHL logo.png";
 
 const Testi = () => {
   const [t] = useTranslation();
@@ -35,7 +34,7 @@ const Testi = () => {
         <SwiperSlide className="testi-content" >
     
               <div className="Slide">
-                <img src={img1} alt="" className="img_testi" />
+              <img src={PostNL} alt="PostNL logo" className="img_testi" />
                 <p>{t("Certificates.PostNLbody")}</p>
                 <i className="bx bxs-quote-alt-left guote-icon"></i>
                 <div className="details">
@@ -52,7 +51,7 @@ const Testi = () => {
         
             <div className="testi-content">
               <div className="Slide" >
-                <img src={Imgdpd} alt="" className="img_testi" />
+                <img src={DPD} alt="DPD logo" className="img_testi" />
                 <p>{t("DeliverCompany.Dpdbody")}</p>
                 <i className="bx bxs-quote-alt-left guote-icon"></i>
                 <div className="details">
@@ -70,7 +69,7 @@ const Testi = () => {
         
         <div className="testi-content">
           <div className="Slide">
-            <img src={ImgDhl} alt="" className="img_testi" />
+          <img src={DHL} alt="DHL logo" className="img_testi" />
             <p>{t("DeliverCompany.Dhlbody")}</p>
             <i className="bx bxs-quote-alt-left guote-icon"></i>
             <div className="details">

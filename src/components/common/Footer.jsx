@@ -3,7 +3,7 @@ import "./footer.css";
 import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
-    const [t]=useTranslation()
+  const [t] = useTranslation();
   return (
     <footer>
       <section>
@@ -11,68 +11,62 @@ export const Footer = () => {
           <div className="footer-container grid">
             <div className="footer-element">
               <h3>
-                <a href="" className="logo footer-logo">
+                <a href="home" className="logo footer-logo">
                   <span className="red-color">MA.</span>
-                  <span >EXPRESS</span>
+                  <span>EXPRESS</span>
                 </a>
               </h3>
-              <p>
-              {t("hero.body")}
-              </p>
+              <p>{t("hero.body")}</p>
             </div>
             <div className="footer-element">
               <ul>
                 <li>
-                  <h3>{t('itme.btn')}</h3>
+                  <h3>{t("itme.btn")}</h3>
                 </li>
                 <li>
                   <a href="#" className="footer-link">
-                    {t('itme.driver')}
+                    {t("itme.driver")}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="footer-link">
-                    {t('itme.OurOffers')}
+                    {t("itme.OurOffers")}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="footer-link">
-                  {t('itme.Transfer')}
-
+                    {t("itme.Transfer")}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="footer-link">
-                  {t('itme.Safety')}
-
+                    {t("itme.Safety")}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="footer-link">
-                  {t('Certificates.title')}
-
+                    {t("Certificates.title")}
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="footer-element" >
+            <div className="footer-element">
               <ul>
                 <li>
                   <h3>{t("name")}</h3>
                 </li>
                 <li>
-                  <a href="#home" className="footer-link">
+                  <a href="home" className="footer-link">
                     {t("home")}
                   </a>
                 </li>
                 <li>
                   <a href="#service" className="footer-link">
-                  {t("service")}
-
+                    {t("service")}
                   </a>
                 </li>
                 <li>
-                  <a href="#ourTame" className="footer-link">
+                  <a href="employment" className="footer-link">
                     {t("ourTame")}
                   </a>
                 </li>
@@ -85,19 +79,12 @@ export const Footer = () => {
               </ul>
             </div>
             <div className="footer-element">
-              <h3>{t('Getin')}</h3>
+              <h3>{t("Getin")}</h3>
               <div className="email-input-box">
                 <input placeholder={t("SubmitEmail.email")} type="text" />
                 <button className="email-btn">{t("Go")}</button>
               </div>
-              <div className="icons icons1">
-                <a  href="https://www.facebook.com/profile.php?id=100064244430215&mibextid=ZbWKwL" target="_blank">
-                <i className="ri-facebook-box-fill"></i>
-                </a>
-                {/* <i className="ri-instagram-fill"></i>
-                <i className="ri-twitter-fill"></i>
-                <i className="ri-google-fill"></i> */}
-              </div>
+         
             </div>
           </div>
         </div>

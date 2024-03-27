@@ -42,7 +42,7 @@ i18n
 
     resources,
 
-    fallbackLng: 'en',
+    fallbackLng: 'nl',
     
     debug: true,
     supportedLngs: ['en', 'ar', 'nl'],

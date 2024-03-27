@@ -1,9 +1,10 @@
 {
-    "title": "MA.EXEXPRESS - Furniture and Cold Parcel Shipping",
+    "title": "Moving company Groningen to all of the Netherlands cheap moving company",
+  "description": "Need a moving company from Groningen? ✓ Personal service ✓ Experienced movers ✓ Price in 5 minutes ✓ Discount up to 30% ✓ Student Moving Service LetsMove.",
     "name": "MA.EXPRESS",
     "home": "Home",
     "service": "Service",
-    "ourTame": "Our Customers",
+    "ourTame": "Employment ",
     "contact": "Contact Us",
     "call": " Call : +01 123455678990",
     "emil": "Email : demo@gmail.com",
@@ -11,13 +12,15 @@
         "contact": " Contact",
         "yourfullname": " Your Fullname",
         "email": "Email",
+        "phone": "Phone",
+
         "message": "Message",
         "submit": "Submit"
     },
     "logo": "Speed safety quality",
     "hero": {
         "title": "Are you looking for a furniture moving company?",
-        "body": "We are a specialized company in furniture moving services and parcel delivery. We understand the importance of your belongings and appreciate their personal and emotional value to you. Therefore, we strive to provide a safe and reliable moving service to ensure that your belongings arrive at their destination safely and in good condition.",
+        "body": "We are a company specializing in furniture and cold parcel transportation services. We are keen to provide a safe and reliable transportation service to ensure that your belongings reach their destination safely and in good condition.",
         "btn": "Our prices are highly competitive, and we offer discounts for loyal customers.",
         "btnStudent": " Discount for students   "
     },
@@ -56,4 +59,9 @@
     },
     "Getin": "Get in Touch",
     "Go": "Go"
+    ,"Page404":{
+        "title":"Uh Ohh !",
+        "body":"Sorry, the service is currently down."
+        ,"btn":"Go Home"
+    }
 }

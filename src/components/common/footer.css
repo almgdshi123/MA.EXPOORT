@@ -50,24 +50,7 @@ footer {
     font-weight: var(--font-medium);
     font-size: var(--normal-font-size);
   }
-  .icons1{
-    display: block;
-    width: 100%;
-    font-size: var(--h2-font-size);
-    padding: 20px 0;
-  }
-  .icons1 > a {
-    cursor: pointer;
-    color: white;
-  }
-  .icons1  a  i {
-    font-size: 50px;
-    
-  }
-  
-  .icons1 > a:hover {
-    color: var(--red);
-  }
+
   @media screen and (min-width: 900px) {
 
   .footer-element{

@@ -1,9 +1,10 @@
 {
-    "title": "MA.EXEXPRESS - Meubel- en koelzendingvervoer",
+    "title": "verhuisbedrijf Groningen naar heel nederland goedkoop verhuisbedrijf",
+    "description":"Verhuisbedrijf Groningen nodig? ✓ Persoonlijke service ✓ Ervaren verhuizers ✓ In 5 minuten een prijs ✓ Korting tot  30% ✓ Student Verhuis Service Lets Move.",
     "name": "MA.EXPRESS",
     "home": "Thuis",
     "service": "Dienst",
-    "ourTame": "Onze Klanten",
+    "ourTame": "ًWerkgelegenheid",
     "contact": "Neem contact op",
     "call": "Bel: +01 123455678990",
     "emil": "E-mail: demo@gmail.com",
@@ -11,14 +12,17 @@
         "contact": "Contact",
         "yourfullname": "Je volledige naam",
         "email": "E-mail",
+        "phone": "Telefoon",
         "message": "Bericht",
         "submit": "Verzenden"
     },
     "logo": "Snelleheid, veiligheid, kwaliteit",
     "hero": {
         "title": "Bent u op zoek naar een verhuisbedrijf?",
-        "body": "Wij zijn een gespecialiseerd bedrijf in verhuisdiensten en pakketbezorging. We begrijpen het belang van uw bezittingen en waarderen hun persoonlijke en emotionele waarde voor u. Daarom streven we ernaar om een veilige en betrouwbare verhuisservice te bieden, zodat uw bezittingen veilig en in goede staat op hun bestemming aankomen.",
-        "btn": "Onze prijzen zijn zeer concurrerend en we bieden kortingen voor vaste klanten."
+        "body": "Wij zijn een gespecialiseerd bedrijf in verhuisdiensten en pakketbezorging. We begrijpen het belang van uw bezittingen en waarderen hun persoonlijke en emotionele waarde voor u. Daarom streven we ernaar om een veilige en betrouwbare verhuisservice te bieden, zodat uw bezittingen veilig en in goede staat op hun bestemming aankomen",
+                "btn": "Onze prijzen zijn zeer concurrerend en we bieden kortingen voor vaste klanten.",
+        "btnStudent": " Discount for students   "
+
     },
     "Certificates": {
         "title": "Certificaten en Aanbevelingen",
@@ -54,5 +58,14 @@
         "titlebody": "Ons bedrijf werktu al jaren samen met grote bedrijven om verzenddiensten te leveren door heel Nederland. Ze zijn een betrouwbare partner gebleken.",
         "btnStudent": "  Korting voor studenten "
     },
-    "Getin": "Get in Touch"
+    "Getin": "Get in Touch",
+    
+        "Page404": {
+          "title": "Oeps!",
+          "body": "Sorry, de service is momenteel niet beschikbaar.",
+          "btn": "Ga naar de startpagina"
+        }
+      
+      
+
 }

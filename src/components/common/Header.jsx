@@ -3,13 +3,10 @@ import { useTranslation } from "react-i18next";
 import "./Header.css";
 import cookies from "js-cookie";
 import { languages } from "../../len/len";
-import icone from "../assets/Img/WhatsApp Image 2023-10-06 at 01.59.58.jpg";
-import SubmitEmail from "../Submit/SubmitEmail";
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
-  const [isActiveCell, setIsActivCell] = useState(false);
-  let value = "en";
+  let value = "nl";
 
   const [t, i18n] = useTranslation();
 
@@ -18,14 +15,11 @@ function Header() {
     if (event === 1) {
       setIsActive((current) => !current);
     }
-
-    if (event === 3) {
-      setIsActivCell((current) => !current);
-    }
   };
 
   const currentLanguageCode = cookies.get("i18next") || "en";
-  const currentLanguage = languages.find((l) => l.code === currentLanguageCode);
+  const currentLanguage = languages.find((l) => l.code === currentLanguageCode) || languages[0]; // Fallback to first language
+ 
   useEffect(() => {
     document.body.dir = currentLanguage.dir || "ltr";
 
@@ -53,7 +47,7 @@ function Header() {
           }
         >
           <li className="nav-item">
-            <a href="#home" className="nav-link">
+            <a href="home" className="nav-link">
               {t("home")}
             </a>
           </li>
@@ -63,7 +57,7 @@ function Header() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#ourTame" className="nav-link">
+            <a href="employment" className="nav-link">
               {t("ourTame")}
             </a>
           </li>
@@ -112,12 +106,18 @@ function Header() {
             <i className="ri-close-line"></i>
           </button>
         </div> */}
+        
         <div className="grp-btns">
           <button onClick={() => handleClick(1)} className="menu-btn">
             <i className="ri-menu-2-fill"></i>
           </button>
 
-          <a /*</div>onClick={() => handleClick(3)} */ href="tel:+31633854062" className="menu-btn-call " alt="">
+          <a
+            /*</div>onClick={() => handleClick(3)} */ href="tel:+31633854062"
+            className="menu-btn-call "
+            alt=""
+          >
+
             <i className="ri-phone-fill"></i>{" "}
           </a>
           <div className="header-top-left">
@@ -132,14 +132,14 @@ function Header() {
                   name="language"
                   id="language"
                 >
-                  <option value="en">EN</option>
+                  <option value="nl">NL</option>
                   <option
                     onSelect={() => {
-                      i18n.changeLanguage("nl");
+                      i18n.changeLanguage("en");
                     }}
-                    value="nl"
+                    value="en"
                   >
-                    NL
+                    EN
                   </option>
                   <option
                     onSelect={() => {
@@ -147,7 +147,7 @@ function Header() {
                     }}
                     value="ar"
                   >
-                    AR 
+                    AR
                   </option>
                 </select>
               </li>
@@ -159,6 +159,7 @@ function Header() {
             href="https://api.whatsapp.com/send?phone=31633854062"
             target="_blank"
             id="toggle1"
+            rel="noopener noreferrer"
             className="wtsapp"
           >
             <i className="ri-whatsapp-line"></i>

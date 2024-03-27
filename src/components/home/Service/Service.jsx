@@ -1,7 +1,7 @@
 import React from "react";
 import "./service.css";
 import { useTranslation } from "react-i18next";
-import PayChecked from "../../assets/Img/sss.jpg";
+import PayChecked from "../../assets/Img/PayChecked-logo-2024.jpg";
 import niwo from "../../assets/Img/niwo.svg";
 import Testi from "./testi/Testi";
 
@@ -10,44 +10,46 @@ const Service = () => {
   return (
     <>
     <section id="ourTame">
-      <div class="services-section">
-        <div class="inner-width">
-          <h1 class="section-title">{t("OurCustomers.title")}</h1>
+    <div className="border"></div>
+
+      <div className="services-section">
+        <div className="inner-width">
+          <h1 className="section-title">{t("OurCustomers.title")}</h1>
           <p className="text-box text-box-service" style={{ color: "black" }}>
             {t("OurCustomers.titlebody")}
           </p>
-          <div class="border"></div>
         </div>
       </div>
       <Testi />{" "}
-      <div class="services-section">
-        <div class="inner-width">
-          <h1 class="section-title">{t("Certificates.title")}</h1>
+      <div className="border"></div>
+
+      <div className="services-section">
+        <div className="inner-width">
+          <h1 className="section-title">{t("Certificates.title")}</h1>
           <p className="text-box" style={{ color: "black" }}>
             {t("Certificates.titlep")}
           </p>
-          <div class="border"></div>
-          <div class="services-container">
-            <div class="service-box">
-              <div class="service-icon">
-                <img src={PayChecked} style={{ transform: "rotate(14deg)" }}></img>
+          <div className="services-container">
+            <div className="service-box">
+              <div className="service-icon">
+                <img src={PayChecked} alt="PayChecked: اتّخذ خطوة جريئة نحو المستقبل" ></img>
               </div>
-              <div class="service-title">
+              <div className="service-title">
                 {t("Certificates.PayCheckedtitle")}
               </div>
-              <div class="service-desc">{t("Certificates.PayCheckedbody")}</div>
+              <div className="service-desc">{t("Certificates.PayCheckedbody")}</div>
             </div>
-            <div class="service-box">
-              <div class="service-icon">
-                <img src={niwo} style={{ marginTop: "60px" }}></img>
+            <div className="service-box">
+              <div className="service-icon">
+                <img src={niwo} style={{ marginTop: "60px" }} alt="صورة Niwo على خلفية بيضاء"></img>
               </div>
-              <div class="service-title">{t("Certificates.niwotitle")}</div>
-              <div class="service-desc">{t("Certificates.niwobody")}</div>
+              <div className="service-title">{t("Certificates.niwotitle")}</div>
+              <div className="service-desc">{t("Certificates.niwobody")}</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="border"></div>
+      <div className="border"></div>
       </section>
     </>
   );
